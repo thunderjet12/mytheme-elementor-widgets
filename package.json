@@ -1,0 +1,34 @@
+{
+  "name": "react-parcel-starter",
+  "version": "1.0.0",
+  "description": "A starting template for building React apps with Parcel.js",
+  "main": "app/index.html",
+  "repository": "https://github.com/akhila-ariyachandra/react-parcel-starter.git",
+  "author": "akhila-ariyachandra <akhila_ariyachandra@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./app/index.js --out-dir ./resources/dist" ,
+    "build": "parcel build ./app/index.html --out-dir ./public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.5",
+    "less": "^3.11.1",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "postcss-modules": "^1.5.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "dependencies": {
+    "gsap": "^3.2.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "tailwindcss": "^1.2.0",
+    "uikit": "^3.3.7"
+  }
+}
